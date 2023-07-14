@@ -10,7 +10,7 @@ const Achievement = () => {
             <h3 className="capitalize text-white font-bold text-lg md:text-2xl mb-3">
               our best achievement
             </h3>
-            <h1 className="w-[650px] mx-auto capitalize text-white font-bold text-2xl md:text-[40px] md:leading-normal">
+            <h1 className="md:w-[650px] mx-auto capitalize text-white font-bold text-2xl md:text-[40px] md:leading-normal break-words">
               We feel very proud for our great achievement
             </h1>
           </div>

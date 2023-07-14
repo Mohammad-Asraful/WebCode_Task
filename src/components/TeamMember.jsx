@@ -10,7 +10,7 @@ const TeamMember = () => {
             <h3 className="capitalize text-[#FFAB00] font-bold text-lg md:text-2xl mb-3">
               our best achievement
             </h3>
-            <h1 className="w-[650px] mx-auto capitalize text-[#0066B3] font-bold text-2xl md:text-[40px] md:leading-normal">
+            <h1 className="md:w-[650px] mx-auto capitalize text-[#0066B3] font-bold text-2xl md:text-[40px] md:leading-normal break-words">
               We feel very proud for our great achievement
             </h1>
           </div>
@@ -18,7 +18,7 @@ const TeamMember = () => {
 
           {/* team member card end */}
           <div>
-            <div className="mt-10 flex items-center justify-center gap-5">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-5">
               {/* 1 */}
               <div className="rounded-b-lg border-b-[15px] border-[#0066B3] hover:border-[#FFAB00] [&>div>h2]:hover:text-[#FFAB00] relative">
                 <img

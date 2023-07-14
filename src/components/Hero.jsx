@@ -10,14 +10,14 @@ const Hero = () => {
             <h3 className="capitalize text-[#FFAB00] font-bold text-lg md:text-2xl">
               our Photo Gallery
             </h3>
-            <h1 className="w-[560px] mx-auto capitalize text-[#0066B3] font-bold text-2xl md:text-[40px] md:leading-normal">
+            <h1 className="md:w-[560px] mx-auto capitalize text-[#0066B3] font-bold text-2xl md:text-[40px] md:leading-normal break-words">
               Look at Our cleanta cleaning service Insides
             </h1>
           </div>
           {/* hero header end */}
 
           {/* hero menus end */}
-          <div className="my-5 flex items-center justify-center gap-5">
+          <div className="my-5 flex flex-wrap items-center justify-center gap-5">
             <a
               className="md:py-4 md:px-7 py-2 px-3 font-semibold text-base bg-white hover:bg-[#FFAB00] hover:text-white"
               href="@">
